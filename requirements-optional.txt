@@ -1,0 +1,5 @@
+# Optional. The core laboratory runs without these.
+# PyTorch: neural fraud example and LSTM forecasting notes.
+torch>=2.2
+# PySpark: local large-scale transaction jobs. Requires a JDK on PATH.
+pyspark>=3.5

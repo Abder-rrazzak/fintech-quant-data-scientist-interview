@@ -1,0 +1,6 @@
+from __future__ import annotations
+
+import numpy as np
+def np_pairwise_max(left: np.ndarray, right: np.ndarray):
+    """Elementwise maximum."""
+    return np.maximum(np.asarray(left, dtype=float), np.asarray(right, dtype=float))

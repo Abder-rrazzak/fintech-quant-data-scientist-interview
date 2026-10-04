@@ -1,0 +1,6 @@
+transaction_id,customer_id,account_id,merchant_id,timestamp,amount,currency,country,merchant_category,payment_method,device_id,ip_address,account_age_days,customer_age,customer_segment,balance_before,balance_after,transaction_type,is_fraud
+T0001,C0001,A0001,M0001,2024-03-01T10:15:00,42.50,USD,US,grocery,card_present,D1,203.0.113.4,400,34,retail,900.00,857.50,purchase,0
+T0002,C0001,A0001,M0008,2024-03-01T10:17:00,18.00,USD,US,grocery,card_present,D1,203.0.113.4,400,34,retail,857.50,839.50,purchase,0
+T0003,C0002,A0002,M0014,2024-03-02T02:11:00,640.00,EUR,FR,luxury,card_not_present,D9,198.51.100.20,20,29,retail,700.00,60.00,purchase,1
+T0004,C0002,A0002,M0014,2024-03-02T02:14:00,15.00,EUR,DE,luxury,card_not_present,D9,198.51.100.20,20,29,retail,60.00,45.00,purchase,1
+T0005,C0003,A0003,M0003,2024-06-18T16:40:00,120.00,GBP,GB,travel,card_present,D3,192.0.2.15,800,51,affluent,4200.00,4080.00,purchase,0
